@@ -20,7 +20,7 @@ namespace dx3d
 
 		std::unique_ptr<Logger> m_Logger{};					// 1rst attr. defined --> last being deallocated
 		std::unique_ptr<GraphicsEngine> m_GraphicsEngine{}; 
-		std::unique_ptr<Window> m_Display{};				// last attr. defined --> 1rst being deallocated
+		std::unique_ptr<Display> m_Display{};				// last attr. defined --> 1rst being deallocated
 		bool m_IsRunning{ true };
 	};
 }
